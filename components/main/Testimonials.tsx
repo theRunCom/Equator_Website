@@ -1,13 +1,6 @@
-/* import {
- *   Backend_skill,
- *   Frontend_skill,
- *   Full_stack,
- *   Other_skill,
- *   Skill_data,
- * } from "@/constants"; */
 import React from "react";
-/* import SkillDataProvider from "../sub/SkillDataProvider"; */
 import TestimonialsText from "../sub/TestimonialsText";
+import Image from "next/image";
 
 const Testimonials = () => {
   return (
@@ -32,22 +25,24 @@ const Testimonials = () => {
           </svg>
           <blockquote>
             <p className="text-4xl font-medium text-gray-900 dark:text-white">
-              It's a natural progression of the internet, Gubsheep said. "The
+              It&apos; a natural progression of the internet, Gubsheep said. &quot;The
               digital world is becoming host to more and more of our most
-              meaningful interactions," he said. But he bets people are unlikely
-              to accept a version of the "Metaverse" managed by a corporation or
-              any other centralized entity.Instead, what they want is "a trusted
+              meaningful interactions,&quot; he said. But he bets people are unlikely
+              to accept a version of the &quot;Metaverse&quot; managed by a corporation or
+              any other centralized entity.Instead, what they want is &quot;a trusted
               neutral matrix for people to express themselves, self-organize and
-              self-govern in a relatively uninhibited manner," he argues. "To
+              self-govern in a relatively uninhibited manner,&quot; he argues. &quot;To
               me, this is a stronger vision of the Metaverse, and I hope 0xPARC
-              's experiments will contribute."
+              &apos;s experiments will contribute.&quot;
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center mt-6 space-x-3">
-            <img
-              className="w-6 h-6 rounded-full"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+            <Image
+              className="rounded-full"
+              src="/gubsheep.jpg"
               alt="profile picture"
+              width={80}
+              height={80}
             />
             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
               <div className="text-2xl pr-3 font-medium text-gray-900 dark:text-white">
