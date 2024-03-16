@@ -40,7 +40,6 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
   const [state, dispatch] = useReducer(themeReducer, initialState);
 
   useEffect(() => {
-    console.log("documentElement:", document.documentElement);
     if (state.theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
