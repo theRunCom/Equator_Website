@@ -21,7 +21,7 @@ const ThemeContext = React.createContext<ThemeContextType | undefined>(
   undefined,
 );
 
-const initialState: ThemeState = { theme: "light" };
+const initialState: ThemeState = { theme: "dark" };
 
 function themeReducer(state: ThemeState, action: ThemeAction): ThemeState {
   switch (action.type) {
