@@ -69,7 +69,7 @@ export function ThemedButton() {
   const { theme, toggleTheme } = context;
 
   return (
-    <div onClick={toggleTheme}>
+    <div onClick={toggleTheme} className="cursor-pointer">
       {theme === "light" ? <MoonFill /> : <SunBold />}
     </div>
   );
