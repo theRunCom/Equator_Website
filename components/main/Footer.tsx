@@ -46,7 +46,7 @@ const Footer = () => {
               <div className="font-bold text-[16px]">Quick Links</div>
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <IoDocumentTextSharp />
-                <span className="text-[15px] ml-[6px]">Tutorials</span>
+                <span className="text-[15px] ml-[6px]">Docs</span>
               </p>
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <ImBlog />
