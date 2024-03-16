@@ -14,7 +14,7 @@ const TestimonialsText = () => {
       </motion.div>
       <motion.div
         variants={slideInFromRight(0.5)}
-        className="cursive text-[30px] text-theme mb-10 mt-[10px] text-center"
+        className="cursive text-[30px] text-theme mb-1 mt-[1px] text-center"
       >
         They speak about Fully On-chain Games
       </motion.div>
