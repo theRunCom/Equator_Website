@@ -39,10 +39,10 @@ const Navbar = () => {
             <a href="#home" className="cursor-pointer">
               <HomeIcon className="text-[#9e56d8] ml-[20px] h-8 w-8" />
             </a>
-            <a href="#" className="cursor-pointer">
+            <a href="#games" className="cursor-pointer">
               <GlobeAltIcon className="text-[#9e56d8] ml-[20px] h-8 w-8" />
             </a>
-            <a href="#" className="cursor-pointer">
+            <a href="#sponsors" className="cursor-pointer">
               <CreditCardIcon className="text-[#9e56d8] ml-[20px] h-8 w-8" />
             </a>
           </div>
