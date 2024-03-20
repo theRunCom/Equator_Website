@@ -7,7 +7,7 @@ export const Socials = [
   {
     name: "Discord",
     src: "/discord.svg",
-    link: "https://discord.gg/68uQz9DXWW",
+    link: "https://discord.gg/CbZtq5S4sU",
   },
   {
     name: "Github",
