@@ -44,18 +44,27 @@ const Footer = () => {
             </div>
             <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
               <div className="font-bold text-[16px]">Quick Links</div>
-              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <a
+                href="https://docs.equatoraw.xyz/docs/home/introduction"
+                className="flex flex-row items-center my-[15px] cursor-pointer"
+              >
                 <IoDocumentTextSharp />
                 <span className="text-[15px] ml-[6px]">Docs</span>
-              </p>
-              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              </a>
+              <a
+                href="https://docs.equatoraw.xyz/blog"
+                className="flex flex-row items-center my-[15px] cursor-pointer"
+              >
                 <ImBlog />
                 <span className="text-[15px] ml-[6px]">Blogs</span>
-              </p>
-              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              </a>
+              <a
+                href="https://hub.composablelabs.io/games"
+                className="flex flex-row items-center my-[15px] cursor-pointer"
+              >
                 <IoGameController />
                 <span className="text-[15px] ml-[6px]">Games</span>
-              </p>
+              </a>
             </div>
             <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
               <div className="font-bold text-[16px]">About</div>
@@ -63,10 +72,13 @@ const Footer = () => {
                 <SiGithubsponsors />
                 <span className="text-[15px] ml-[6px]">Support</span>
               </p>
-              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <a
+                href="https://docs.equatoraw.xyz/docs/home/about"
+                className="flex flex-row items-center my-[15px] cursor-pointer"
+              >
                 <MdOutlineEmojiObjects />
                 <span className="text-[15px] ml-[6px]">Introduction</span>
-              </p>
+              </a>
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <CiMail />
                 <span className="text-[15px] ml-[6px]">
