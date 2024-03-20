@@ -52,7 +52,7 @@ const HeroContent = () => {
           Create It!
         </motion.p>
         <motion.a
-          href="https://equator-documents.vercel.app/"
+          href="https://docs.equatoraw.xyz/"
           target="_blank"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
