@@ -47,6 +47,7 @@ const Footer = () => {
               <a
                 href="https://docs.equatoraw.xyz/docs/home/introduction"
                 className="flex flex-row items-center my-[15px] cursor-pointer"
+                target="_blank"
               >
                 <IoDocumentTextSharp />
                 <span className="text-[15px] ml-[6px]">Docs</span>
@@ -54,6 +55,7 @@ const Footer = () => {
               <a
                 href="https://docs.equatoraw.xyz/blog"
                 className="flex flex-row items-center my-[15px] cursor-pointer"
+                target="_blank"
               >
                 <ImBlog />
                 <span className="text-[15px] ml-[6px]">Blogs</span>
@@ -61,6 +63,7 @@ const Footer = () => {
               <a
                 href="https://hub.composablelabs.io/games"
                 className="flex flex-row items-center my-[15px] cursor-pointer"
+                target="_blank"
               >
                 <IoGameController />
                 <span className="text-[15px] ml-[6px]">Games</span>
@@ -75,6 +78,7 @@ const Footer = () => {
               <a
                 href="https://docs.equatoraw.xyz/docs/home/about"
                 className="flex flex-row items-center my-[15px] cursor-pointer"
+                target="_blank"
               >
                 <MdOutlineEmojiObjects />
                 <span className="text-[15px] ml-[6px]">Introduction</span>
