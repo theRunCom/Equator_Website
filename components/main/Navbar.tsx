@@ -8,7 +8,7 @@ import {
   CreditCardIcon,
   GlobeAltIcon,
 } from "@heroicons/react/24/solid";
-import { ThemedButton } from "./ThemedButton";
+/* import { ThemedButton } from "./ThemedButton"; */
 
 const Navbar = () => {
   return (
@@ -63,8 +63,8 @@ const Navbar = () => {
               />
             </a>
           ))}
-          <div style={{ borderRight: "1px dashed #999", height: "30px" }}></div>
-          <ThemedButton />
+          {/* <div style={{ borderRight: "1px dashed #999", height: "30px" }}></div> */}
+          {/* <ThemedButton /> */}
         </div>
       </div>
     </div>
